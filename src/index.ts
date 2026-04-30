@@ -2,7 +2,7 @@ import { approveUSDCAllowance, updateClobBalanceAllowance } from "./security/all
 import { getClobClient } from "./providers/clobclient";
 import { waitForMinimumUsdcBalance } from "./utils/balance";
 import { config } from "./config";
-import logger from "styled-text-logger";
+import logger from "color-logger-console";
 import { CopytradeArbBot } from "./order-builder/copytrade";
 import { setupConsoleFileLogging } from "./utils/console-file";
 
